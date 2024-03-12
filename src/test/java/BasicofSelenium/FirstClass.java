@@ -9,6 +9,15 @@ public class FirstClass {
 	{
 		//WebDriver driver = new ChromeDriver();
 		WebDriver driver = new EdgeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/");
+		driver.navigate().to("https://www.gmail.com");
+		driver.navigate().refresh();
+		driver.navigate().back();
+		driver.navigate().forward();
+		//driver.manage().window().minimize();
+		//driver.close();
+		driver.quit();
 	}
 
 	public static void main(String[] args) {
