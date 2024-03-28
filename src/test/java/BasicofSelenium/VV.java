@@ -1,5 +1,6 @@
 package BasicofSelenium;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
@@ -12,11 +13,18 @@ public class VV {
 		driver.get("https://leafground.com/select.xhtml");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-		System.out.println();
+		System.out.println(driver.getPageSource());
+		System.out.println(driver.findElement(By.xpath("(//*[@class='card']//h5)[1]")).getText());
+		System.out.println(driver.findElement(By.className("ui-selectonemenu")).getAttribute("style"));
+		System.out.println(driver.getWindowHandle());
+		System.out.println(driver.getWindowHandles());
+		System.out.println(driver.findElement(By.className("ui-selectonemenu")).getCssValue("background"));
+
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		VV  v = new VV();
+		v.vvimplementation();
 
 	}
 
