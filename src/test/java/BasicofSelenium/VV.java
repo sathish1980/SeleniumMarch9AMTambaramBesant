@@ -6,6 +6,12 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class VV {
 
+	// validation
+	/*
+	 * isSelected()
+	 * isDisplayed()
+	 * isEnabled()
+	 */
 	public void vvimplementation()
 	{
 		WebDriver driver = new EdgeDriver();
