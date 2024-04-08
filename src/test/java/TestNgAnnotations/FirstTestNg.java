@@ -1,12 +1,39 @@
 package TestNgAnnotations;
 
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import org.testng.annotations.Test;
 
 public class FirstTestNg {
+	
+	
+	@BeforeSuite
+	public void BeforeS()
+	{
+		System.out.println("Before Suite");
+	}
 
+	@AfterSuite
+	public void AfterS()
+	{
+		System.out.println("After Suite");
+	}
+	
+	@BeforeTest
+	public void BeforeT()
+	{
+		System.out.println("Before Test");
+	}
+
+	@AfterTest
+	public void AfterT()
+	{
+		System.out.println("After Test");
+	}
+	
 	@BeforeMethod
 	public void BeforeM()
 	{
