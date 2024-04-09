@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgAnnotations.FirstTestNg">
+      <class name="Testcase.MakeMyTripSearch">
         <methods>
-          <include name="SecondTestcase"/>
+          <include name="ValidateSearchwithSameCityError"/>
+          <include name="BrowserLaunch"/>
+          <include name="LaunchTheURL"/>
+          <include name="Close"/>
         </methods>
-      </class> <!-- TestNgAnnotations.FirstTestNg -->
+      </class> <!-- Testcase.MakeMyTripSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
