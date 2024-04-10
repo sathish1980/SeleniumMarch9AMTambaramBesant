@@ -1,29 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-09T09:56:25 IST" name="Default suite" finished-at="2024-04-09T09:56:47 IST" duration-ms="21974">
+  <suite started-at="2024-04-10T09:59:32 IST" name="Default suite" finished-at="2024-04-10T10:00:17 IST" duration-ms="45088">
     <groups>
     </groups>
-    <test started-at="2024-04-09T09:56:25 IST" name="Default test" finished-at="2024-04-09T09:56:47 IST" duration-ms="21974">
+    <test started-at="2024-04-10T09:59:32 IST" name="Default test" finished-at="2024-04-10T10:00:17 IST" duration-ms="45088">
       <class name="Testcase.MakeMyTripSearch">
-        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:Testcase.MakeMyTripSearch@515c6049]" started-at="2024-04-09T09:56:24 IST" name="BrowserLaunch" finished-at="2024-04-09T09:56:25 IST" duration-ms="1512" status="PASS">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T09:59:30 IST" name="BrowserLaunch" finished-at="2024-04-10T09:59:32 IST" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserLaunch -->
-        <test-method is-config="true" signature="LaunchTheURL()[pri:0, instance:Testcase.MakeMyTripSearch@515c6049]" started-at="2024-04-09T09:56:25 IST" name="LaunchTheURL" finished-at="2024-04-09T09:56:28 IST" duration-ms="2878" status="PASS">
+        <test-method is-config="true" signature="LaunchTheURL()[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T09:59:32 IST" name="LaunchTheURL" finished-at="2024-04-10T09:59:36 IST" duration-ms="3870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchTheURL -->
-        <test-method signature="ValidateSearchwithValidValues()[pri:0, instance:Testcase.MakeMyTripSearch@515c6049]" started-at="2024-04-09T09:56:28 IST" name="ValidateSearchwithValidValues" finished-at="2024-04-09T09:56:44 IST" duration-ms="15643" status="PASS">
+        <test-method is-config="true" signature="ClickOnAdd()[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T09:59:36 IST" name="ClickOnAdd" finished-at="2024-04-10T09:59:41 IST" duration-ms="5163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAdd -->
+        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T09:59:41 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-10T10:00:02 IST" duration-ms="20698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithValidValues -->
-        <test-method signature="ValidateSearchwithSameCityError()[pri:1, instance:Testcase.MakeMyTripSearch@515c6049]" started-at="2024-04-09T09:56:44 IST" name="ValidateSearchwithSameCityError" finished-at="2024-04-09T09:56:47 IST" duration-ms="3426" status="PASS">
+        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T10:00:02 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-10T10:00:08 IST" duration-ms="6301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchwithValidValues -->
+        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T10:00:08 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-10T10:00:14 IST" duration-ms="5645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BKK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchwithValidValues -->
+        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T10:00:14 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-10T10:00:16 IST" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithSameCityError -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:Testcase.MakeMyTripSearch@515c6049]" started-at="2024-04-09T09:56:47 IST" name="Close" finished-at="2024-04-09T09:56:47 IST" duration-ms="311" status="PASS">
+        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T10:00:16 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-10T10:00:16 IST" duration-ms="569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchwithSameCityError -->
+        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T10:00:16 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-10T10:00:17 IST" duration-ms="571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchwithSameCityError -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Testcase.MakeMyTripSearch@5fe94a96]" started-at="2024-04-10T10:00:17 IST" name="Close" finished-at="2024-04-10T10:00:17 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
