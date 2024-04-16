@@ -5,10 +5,13 @@
     <classes>
       <class name="Testcase.MakeMyTripSearch">
         <methods>
-          <include name="ValidateSearchwithSameCityError"/>
+          <include name="ClickOnAdd"/>
+          <include name="ReportUpdate"/>
           <include name="BrowserLaunch"/>
+          <include name="ValidateSearchwithValidValues" invocation-numbers="2"/>
           <include name="LaunchTheURL"/>
           <include name="Close"/>
+          <include name="CreateReportName"/>
         </methods>
       </class> <!-- Testcase.MakeMyTripSearch -->
     </classes>
