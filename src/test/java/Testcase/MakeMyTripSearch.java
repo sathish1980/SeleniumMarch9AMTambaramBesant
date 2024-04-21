@@ -48,6 +48,7 @@ public class MakeMyTripSearch extends BrowserLauch {
 	{
 		SearchPage sp = new SearchPage(driver);
 		//sp.CloseAdd();
+		sp.ClickOnLoginPopup();
 	}
 	
 	@BeforeMethod

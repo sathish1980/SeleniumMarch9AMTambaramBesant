@@ -36,5 +36,10 @@ public class MakeMytripDataProvider {
 		return ExcelfileRead.ReadData("inValidData");
 	}
 	
+	@DataProvider
+	public String[][] GetMakeMyTripSearchdata() throws IOException
+	{
+		return ExcelfileRead.ReadData("ValidData");
+	}
 
 }

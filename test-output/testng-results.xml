@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T09:44:48 IST" name="Default suite" finished-at="2024-04-16T09:45:16 IST" duration-ms="28451">
+  <suite started-at="2024-04-21T15:41:31 IST" name="Default suite" finished-at="2024-04-21T15:42:20 IST" duration-ms="48911">
     <groups>
     </groups>
-    <test started-at="2024-04-16T09:44:48 IST" name="Default test" finished-at="2024-04-16T09:45:16 IST" duration-ms="28451">
+    <test started-at="2024-04-21T15:41:31 IST" name="Default test" finished-at="2024-04-21T15:42:20 IST" duration-ms="48911">
       <class name="Testcase.MakeMyTripSearch">
-        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:44:46 IST" name="BrowserLaunch" finished-at="2024-04-16T09:44:48 IST" duration-ms="1694" status="PASS">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:29 IST" name="BrowserLaunch" finished-at="2024-04-21T15:41:31 IST" duration-ms="1834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserLaunch -->
-        <test-method is-config="true" signature="LaunchTheURL()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:44:48 IST" name="LaunchTheURL" finished-at="2024-04-16T09:44:51 IST" duration-ms="2824" status="PASS">
+        <test-method is-config="true" signature="LaunchTheURL()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:31 IST" name="LaunchTheURL" finished-at="2024-04-21T15:41:34 IST" duration-ms="2424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchTheURL -->
-        <test-method is-config="true" signature="ClickOnAdd()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:44:51 IST" name="ClickOnAdd" finished-at="2024-04-16T09:44:51 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="ClickOnAdd()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:34 IST" name="ClickOnAdd" finished-at="2024-04-21T15:41:34 IST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnAdd -->
-        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:44:51 IST" name="CreateReportName" finished-at="2024-04-16T09:44:51 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:35 IST" name="CreateReportName" finished-at="2024-04-21T15:41:35 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReportName -->
-        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:44:51 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-16T09:45:02 IST" duration-ms="10627" status="PASS">
+        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:35 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-21T15:41:41 IST" duration-ms="6262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithValidValues -->
-        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:02 IST" name="ReportUpdate" finished-at="2024-04-16T09:45:02 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:41 IST" name="ReportUpdate" finished-at="2024-04-21T15:41:41 IST" duration-ms="385" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportUpdate -->
-        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:02 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-16T09:45:11 IST" duration-ms="8905" status="PASS">
+        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:41 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-21T15:42:08 IST" duration-ms="26449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithValidValues -->
-        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:02 IST" name="CreateReportName" finished-at="2024-04-16T09:45:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:41:41 IST" name="CreateReportName" finished-at="2024-04-21T15:41:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReportName -->
-        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:11 IST" name="ReportUpdate" finished-at="2024-04-16T09:45:11 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:08 IST" name="ReportUpdate" finished-at="2024-04-21T15:42:08 IST" duration-ms="292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportUpdate -->
-        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:11 IST" name="CreateReportName" finished-at="2024-04-16T09:45:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:08 IST" name="CreateReportName" finished-at="2024-04-21T15:42:08 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReportName -->
-        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:11 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-16T09:45:13 IST" duration-ms="2126" status="FAIL">
+        <test-method signature="ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:08 IST" name="ValidateSearchwithValidValues" data-provider="GetValidDatabyExcel" finished-at="2024-04-21T15:42:16 IST" duration-ms="7742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,91 +134,32 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a class="primaryBtn font24 latoBold widget...Btn ">Search</a> is not clickable at point (759, 461). Other element would receive the click: <div class="font14 lightGreyText latoBold">...</div>
-  (Session info: chrome=123.0.6312.122)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7aaf6a6b9f9d77d0bb7bc43440c48be1, clickElement {id=f.95C6F17B7D779CC4F107866D8C1DF8B4.d.76D5C8B4B525885ADA18C42DC7448C08.e.554}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65445/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7aaf6a6b9f9d77d0bb7bc43440c48be1)] -> xpath: //*[text()='Search']]
-Session ID: 7aaf6a6b9f9d77d0bb7bc43440c48be1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="primaryBtn font24 latoBold widget...Btn ">Search</a> is not clickable at point (759, 461). Other element would receive the click: <div class="font14 lightGreyText latoBold">...</div>
-  (Session info: chrome=123.0.6312.122)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7aaf6a6b9f9d77d0bb7bc43440c48be1, clickElement {id=f.95C6F17B7D779CC4F107866D8C1DF8B4.d.76D5C8B4B525885ADA18C42DC7448C08.e.554}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65445/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7aaf6a6b9f9d77d0bb7bc43440c48be1)] -> xpath: //*[text()='Search']]
-Session ID: 7aaf6a6b9f9d77d0bb7bc43440c48be1
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at ElementUtils.Webelementclass.ClickOnButton(Webelementclass.java:33)
-at Pages.SearchPage.ClickOnSearch(SearchPage.java:112)
-at Testcase.MakeMyTripSearch.ValidateSearchwithValidValues(MakeMyTripSearch.java:81)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithValidValues -->
-        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:13 IST" name="ReportUpdate" finished-at="2024-04-16T09:45:14 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:16 IST" name="ReportUpdate" finished-at="2024-04-21T15:42:16 IST" duration-ms="393" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidateSearchwithValidValues status=FAILURE method=MakeMyTripSearch.ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
+                <![CDATA[[TestResult name=ValidateSearchwithValidValues status=SUCCESS method=MakeMyTripSearch.ValidateSearchwithValidValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportUpdate -->
-        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:14 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-16T09:45:14 IST" duration-ms="740" status="PASS">
+        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:16 IST" name="CreateReportName" finished-at="2024-04-21T15:42:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MakeMyTripSearch.ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReportName -->
+        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:16 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-21T15:42:18 IST" duration-ms="1458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,18 +175,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithSameCityError -->
-        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:14 IST" name="CreateReportName" finished-at="2024-04-16T09:45:14 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MakeMyTripSearch.ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateReportName -->
-        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:14 IST" name="ReportUpdate" finished-at="2024-04-16T09:45:15 IST" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:18 IST" name="ReportUpdate" finished-at="2024-04-21T15:42:18 IST" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,18 +186,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportUpdate -->
-        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:15 IST" name="CreateReportName" finished-at="2024-04-16T09:45:15 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MakeMyTripSearch.ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateReportName -->
-        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:15 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-16T09:45:15 IST" duration-ms="547" status="PASS">
+        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:18 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-21T15:42:19 IST" duration-ms="784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,18 +202,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithSameCityError -->
-        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:15 IST" name="ReportUpdate" finished-at="2024-04-16T09:45:15 IST" duration-ms="244" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidateSearchwithSameCityError status=SUCCESS method=MakeMyTripSearch.ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportUpdate -->
-        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:15 IST" name="CreateReportName" finished-at="2024-04-16T09:45:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:18 IST" name="CreateReportName" finished-at="2024-04-21T15:42:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,7 +213,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReportName -->
-        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:15 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-16T09:45:16 IST" duration-ms="595" status="PASS">
+        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:19 IST" name="ReportUpdate" finished-at="2024-04-21T15:42:19 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateSearchwithSameCityError status=SUCCESS method=MakeMyTripSearch.ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportUpdate -->
+        <test-method is-config="true" signature="CreateReportName(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:19 IST" name="CreateReportName" finished-at="2024-04-21T15:42:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MakeMyTripSearch.ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReportName -->
+        <test-method signature="ValidateSearchwithSameCityError(java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:19 IST" name="ValidateSearchwithSameCityError" data-provider="GetinValidDatabyExcel" finished-at="2024-04-21T15:42:20 IST" duration-ms="667" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -321,7 +251,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearchwithSameCityError -->
-        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:16 IST" name="ReportUpdate" finished-at="2024-04-16T09:45:16 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="ReportUpdate(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:20 IST" name="ReportUpdate" finished-at="2024-04-21T15:42:20 IST" duration-ms="260" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -332,7 +262,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportUpdate -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-16T09:45:16 IST" name="Close" finished-at="2024-04-16T09:45:17 IST" duration-ms="354" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:Testcase.MakeMyTripSearch@776aec5c]" started-at="2024-04-21T15:42:20 IST" name="Close" finished-at="2024-04-21T15:42:20 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->

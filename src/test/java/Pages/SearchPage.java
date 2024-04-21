@@ -43,6 +43,7 @@ public class SearchPage extends Webelementclass{
 			if(elementexist.size()>0)
 			{
 				//WebElement button = driver.findElement(By.className("close"));
+				//ClickOnButton(driver.findElement(By.className("close")));
 				ClickOnButton(button);
 			}
 			driver.switchTo().defaultContent();
@@ -120,6 +121,13 @@ public class SearchPage extends Webelementclass{
 		//return GetText(driver.findElement(By.xpath("//*[@data-cy='sameCityError']")));
 		return GetText(SameCityError);
 		
+	}
+	
+	public void ClickOnLoginPopup()
+	{
+		WaitForElementTobeClickable(driver, By.xpath("//*[@data-cy='closeModal']"));
+		ClickOnButton(driver.findElement(By.xpath("//*[@data-cy='closeModal']")));
+	
 	}
 	
 
